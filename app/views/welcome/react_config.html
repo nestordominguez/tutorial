@@ -1,0 +1,50 @@
+<h1>Configuracion de android native</h1>
+
+<p>Abrimos el archivo MainActivity.java que se encuentra en <code>app/src/main/java/com/NombreDeApp/MainActivity.java </code> </p>
+
+<p></p>
+
+<div class="panel-group">
+  <div class="panel panel-primary">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#collapse1">Agregamos las siguientes lineas en el archivo:</a>
+      </h4>
+    </div>
+    <div id="collapse1" class="panel-collapse collapse">
+			<div class="panel-body">
+			<pre>
+import android.content.Intent;
+import android.os.Bundle;
+import com.facebook.FacebookSdk;
+import com.facebook.CallbackManager;
+				
+			</pre>
+			</div>
+    </div>
+  </div>
+</div>
+
+<div class="panel-group">
+  <div class="panel panel-primary">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#collapse2">Luego agregamos CallbackManager:</a>
+      </h4>
+    </div>
+    <div id="collapse2" class="panel-collapse collapse">
+			<div class="panel-body">
+				<pre>
+public class MainActivity extends ReactActivity {
+	CallbackManager mCallbackManager;
+	//...
+}
+				</pre>
+			</div>
+    </div>
+  </div>
+</div>
+
+  
+  
+
